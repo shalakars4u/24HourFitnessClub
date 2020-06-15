@@ -1,0 +1,8 @@
+{"firstName":"Chavi",
+"lastName":"Gupta",
+ "email":"dishagupta@gmail.com",
+ "password":"dance@stud9",
+ "gymInfo" :"Aerobics",
+  "level":"123",
+  "comments":"Level should be in String and the one defined in enum"     
+}

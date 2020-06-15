@@ -1,0 +1,51 @@
+   {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://grotto-networking.com/24HrFitnessClub.schema.json",
+    "title": "24 Hr Fitness Club",
+    "description": "A Schema for submitted membership applications",
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "description": "Applicants First Name",
+            "type": "string",
+            "minLength":1,
+            "maxLength":40
+        },
+        "lastName": {
+           "description": "Applicants Last Name",
+            "type": "string",
+            "minLength":1,
+            "maxLength":40
+        },
+        "email": {
+           "description": "Applicants Email",
+            "type": "string",
+			"format":"email",
+            "maxLength":30
+        },
+        "password": {
+           "description": "Applicants Password",
+            "type": "string",
+			"password":"^(?=.[0-9]+.)(?=.[a-zA-Z]+.)[0-9a-zA-Z]{6,}$", 
+            "minLength":8,
+            "maxLength":15
+        },
+           "gymInfo": {
+            "description": "Applicants Gym number or brand",
+            "type": "string",
+            "maxlLength":50
+        },
+           "level": {
+             "description": "Applicants level",
+            "type": "string",
+            "enum": ["Beginner","Intermediate","Expert"]
+        },
+       "comments": {
+             "description": "Comments or extra info from the applicant",
+            "type": "string",
+             "maxLength" :400
+        }
+    },
+    "required": ["firstName", "lastName","email","password","level"],
+    "additionalProperties": false
+}

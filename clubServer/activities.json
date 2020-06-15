@@ -1,0 +1,10 @@
+[
+	{"name": "Studio Classes",
+	"dates": ["Wednesday","Thursday","Friday","Saturday","Sunday"]
+	},
+	{"name": "Personal Training",
+	"dates": ["Wednesday","Thursday","Friday","Saturday","Sunday"]
+	},
+    {"name": "Personalized Fitness App", 
+	"dates": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]}
+]
