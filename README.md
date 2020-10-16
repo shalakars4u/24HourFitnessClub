@@ -21,7 +21,8 @@ Server API’s unit testing  is done with Request-Promise-Native library.
 	* Command : node devProxy.js
 	* Command : npm install -g parcel-bundler If warning like - Please, upgrade your dependencies to the actual version of core-js@3 displays execute the command below.
     * Command : npm install --save core-js@^3 Now install the parcel-bundler after upgrade and run devProxy.js.
-Now launch the app with the Link: [URL for React APP](http://localhost:1234) from chrome or firefox.
+Now launch the app with the Link: [URL for React APP](http://localhost:1234) from chrome or firefox.  
+
 Link to see the demo of the application :[Check Demo](https://drive.google.com/file/d/1QL_utWG9TPirr_yRqeJiinLVNefBVNdX/view?usp=sharing)  
 
 
