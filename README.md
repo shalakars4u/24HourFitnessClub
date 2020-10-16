@@ -23,6 +23,8 @@ Server API’s unit testing  is done with Request-Promise-Native library.
     * Command : npm install --save core-js@^3 Now install the parcel-bundler after upgrade and run devProxy.js.
 Now launch the app with the Link: [URL for React APP](http://localhost:1234) from chrome or firefox.
 Link to see the demo of the application :[Check Demo](https://drive.google.com/file/d/1QL_utWG9TPirr_yRqeJiinLVNefBVNdX/view?usp=sharing)  
+
+
 **Functionality:**
 * Guest/member users can visit home,about,activities and login page.
 * To Add/delete activities he/she can login with details from clubUsers2.json file. 
