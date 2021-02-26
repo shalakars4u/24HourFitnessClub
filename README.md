@@ -1,6 +1,6 @@
 # 24HourFitnessClub
 
-A React web app which displays information about the activities organized in 
+A React web application which displays information about the activities organized in 
 the 24HourFitnessClub.
 
 This Multi user Web Application is built using React and express framework which
